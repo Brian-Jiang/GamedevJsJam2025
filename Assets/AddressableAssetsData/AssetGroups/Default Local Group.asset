@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 4c107a0bb30e438479b6a8fb3005a670
+  m_SerializeEntries:
+  - m_GUID: 28c8d4e2c93e0c4409659958a54d5276
+    m_Address: Assets/Art/UI/Prefabs/LevelEntry.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48decbb41d5db7d4085b3e3a71650f98
+    m_Address: Assets/Art/UI/Prefabs/LevelFinish.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 494acc10d182338479bf20d9514d152b
+    m_Address: Assets/GameData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53734fd9bb1af184ebb5c79f813e3e04
+    m_Address: Assets/Art/UI/Prefabs/InGame.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f5fbab0a49403045b11e24407243cf6
+    m_Address: Assets/Art/UI/Prefabs/Loading.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ee54efe66a4ba94089b957b205f61f9
+    m_Address: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR
+      Electrified 3 (Purple).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a747dd004314a24459c2c434f66595e3
+    m_Address: Assets/Art/Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8cb176ac2d6504459d1fb8e59257cda
+    m_Address: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magical
+      Source.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adf1dfde044e3334889db856bc92c65c
+    m_Address: Assets/Art/Prefabs/InGameDebugConsole.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b07faa5167c692841a7bf6a1b61b4c1a
+    m_Address: Assets/Art/UI/Prefabs/Credit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b948e13f48324e24ca7d976832b2704d
+    m_Address: Assets/Art/UI/Prefabs/Pause.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2d083d4148424749a95348a3dbe0d7d
+    m_Address: Assets/Art/UI/Prefabs/GameEnd.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4550c539562fe3428a74308c7721e98
+    m_Address: Assets/Art/UI/Prefabs/Control.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0fda85b7f54880488668752777a7850
+    m_Address: Assets/Art/UI/Prefabs/ChooseLevel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9c66ae841bd8fe948969570389554ef1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3f14ed8fa3201924a92485bf9bf869de, type: 2}
+    - {fileID: 11400000, guid: ae232b1ee70ebf2498bd8b0325c4b1cd, type: 2}

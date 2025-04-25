@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8984acfa2599431db1b1fd82ac63e1ec, type: 3}
+  m_Name: UIConfig
+  m_EditorClassIdentifier: 
+  uiRoot:
+    guid: 9fb2d0e465f23284ca5f281affaad95e
+    fileID: 2081720862162151104
+    path: Assets/Art/Prefabs/UIRoot.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventSystemPrefab:
+    guid: b81da906273a76b4b9d8827d8a7bd2ba
+    fileID: 8225623596666347840
+    path: Assets/Art/Prefabs/EventSystem.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  inGameUIPrefab:
+    guid: 53734fd9bb1af184ebb5c79f813e3e04
+    fileID: 5434609947025935276
+    path: Assets/Art/UI/Prefabs/InGame.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  controlUIPrefab:
+    guid: e4550c539562fe3428a74308c7721e98
+    fileID: 2203896875836310451
+    path: Assets/Art/UI/Prefabs/Control.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  endGameUIPrefab:
+    guid: e2d083d4148424749a95348a3dbe0d7d
+    fileID: 2203896875836310451
+    path: Assets/Art/UI/Prefabs/GameEnd.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  levelFinishUIPrefab:
+    guid: 48decbb41d5db7d4085b3e3a71650f98
+    fileID: 2203896875836310451
+    path: Assets/Art/UI/Prefabs/LevelFinish.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  pauseUIPrefab:
+    guid: b948e13f48324e24ca7d976832b2704d
+    fileID: 2203896875836310451
+    path: Assets/Art/UI/Prefabs/Pause.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  chooseLevelUIPrefab:
+    guid: f0fda85b7f54880488668752777a7850
+    fileID: 5434609947025935276
+    path: Assets/Art/UI/Prefabs/ChooseLevel.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  creditUIPrefab:
+    guid: b07faa5167c692841a7bf6a1b61b4c1a
+    fileID: 5434609947025935276
+    path: Assets/Art/UI/Prefabs/Credit.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

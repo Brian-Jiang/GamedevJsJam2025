@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eb2dc8fb7248a0a044dbcb3fcdf143, type: 3}
+  m_Name: SegmentConfig
+  m_EditorClassIdentifier: 
+  initialSegment:
+    prefab: {fileID: 3560811874424176923, guid: 27963a6146c32474db40515384b12d35, type: 3}
+    length: 30
+    incomingTrackCount: 1
+    outgoingTrackCount: 1
+  segmentInfos:
+  - prefab: {fileID: 5118528514021044896, guid: b5d76602ecf00674a88ae7f356ae60bc, type: 3}
+    length: 10
+    incomingTrackCount: 1
+    outgoingTrackCount: 2
+  - prefab: {fileID: 6546849736769802165, guid: bccc145d2852fdf4f9ddfda26ec68c2d, type: 3}
+    length: 10
+    incomingTrackCount: 1
+    outgoingTrackCount: 2
+  - prefab: {fileID: 5770041130792330403, guid: 309238926d6d0314d89d651e9ac7f934, type: 3}
+    length: 10
+    incomingTrackCount: 2
+    outgoingTrackCount: 3
+  - prefab: {fileID: 4560645018349553189, guid: 3e5726f20ca40004399fe120e16726ab, type: 3}
+    length: 10
+    incomingTrackCount: 3
+    outgoingTrackCount: 2
+  - prefab: {fileID: 7246989785879156565, guid: 4dcbd42c8e3ab8a43bfb28edb8f25033, type: 3}
+    length: 10
+    incomingTrackCount: 2
+    outgoingTrackCount: 1
+  - prefab: {fileID: 5770041130792330403, guid: 0a993fb5360c52946a9603cfc04d8962, type: 3}
+    length: 10
+    incomingTrackCount: 3
+    outgoingTrackCount: 3
+  - prefab: {fileID: 6546849736769802165, guid: 59410daafdcf1db44a23ee55b9765b85, type: 3}
+    length: 10
+    incomingTrackCount: 2
+    outgoingTrackCount: 2
+  - prefab: {fileID: 5118528514021044896, guid: 163199295401c694fb92f40ea33135de, type: 3}
+    length: 10
+    incomingTrackCount: 1
+    outgoingTrackCount: 1
+  - prefab: {fileID: 5118528514021044896, guid: 14475a647dca2464e936f94d4764f1c3, type: 3}
+    length: 10
+    incomingTrackCount: 1
+    outgoingTrackCount: 2
+  - prefab: {fileID: 6546849736769802165, guid: 878c3294662d8784db550e172ffaec8f, type: 3}
+    length: 10
+    incomingTrackCount: 1
+    outgoingTrackCount: 2
+  - prefab: {fileID: 4560645018349553189, guid: 7c795cc631adbef4ab4dc11cf2c971d8, type: 3}
+    length: 10
+    incomingTrackCount: 3
+    outgoingTrackCount: 2
+  - prefab: {fileID: 6546849736769802165, guid: 50115844cfd7fd7428f9bef9cba0e1e5, type: 3}
+    length: 10
+    incomingTrackCount: 2
+    outgoingTrackCount: 2
+  - prefab: {fileID: 6546849736769802165, guid: 01fae317a91b44e478d0cea6999d3c0a, type: 3}
+    length: 10
+    incomingTrackCount: 2
+    outgoingTrackCount: 2

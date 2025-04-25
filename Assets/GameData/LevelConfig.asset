@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dea048b2f5a4c659bf2885b1503f1bf, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: 
+  defaultMaxForce: 45
+  defaultMaxPower: 10
+  levelObjectDestroyThresholdDistance: -50
+  controlForceMultiplier: 1
+  virtualCameraPrefab:
+    guid: a08683e3a11286041ac68d58f1adfa0a
+    fileID: 3374229562667290492
+    path: Assets/Art/Prefabs/Level/VirtualCamera.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  pathTriggerPrefab:
+    guid: 3cafbe2014cca394ca43f3d9dbe69495
+    fileID: 4890606441583998319
+    path: Assets/Art/Prefabs/Level/PathTrigger.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  wallPrefab:
+    guid: 631b917736094b0488a39eb4fa630c27
+    fileID: 589351421429415411
+    path: Assets/Art/Prefabs/Level/Wall.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  pointPrefab:
+    guid: e6b11f3934d33ab46a726923bb886470
+    fileID: 2497341645344175922
+    path: Assets/Art/Prefabs/Level/Point.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  boosterPrefab:
+    guid: cf04728e27e6ff8448294a3375d6211b
+    fileID: 4412130658261305146
+    path: Assets/_DeprecatedAssets/Booster.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  spotlightPrefab:
+    guid: 328ae0c9d86d935459686495876acb1f
+    fileID: 2092798541059629151
+    path: Assets/Art/Prefabs/Level/Lights/PointLight.prefab
+    type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  levels:
+  - levelName: Level Test 1
+    scene:
+      scenePath: Assets/Scenes/LevelTest.unity
+  - levelName: Level Test 2
+    scene:
+      scenePath: Assets/Scenes/LevelTest2.unity
