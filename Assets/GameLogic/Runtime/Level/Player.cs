@@ -229,6 +229,13 @@ namespace CoinDash.GameLogic.Runtime.Level
                 else
                 {
                     Debug.LogWarning("Player is out of range of the track, no pending track to switch to.");
+                    pendingTrack = CurrentTrack;
+                    IsSwitchingTrack = true;
+                    CurrentTrack = null;
+                    IsOnInvincibleTrack = false;
+                    rigidbody2D.linearVelocityY = speed;
+                    rigidbody2D.bodyType = RigidbodyType2D.Dynamic;
+                    TimeNotOnTrack = 0f;
                 }
             }
         }
@@ -315,7 +322,9 @@ namespace CoinDash.GameLogic.Runtime.Level
                 {
                     case Wall:
                     {
-                        Instantiate(flashSpotLight, transform.position, Quaternion.identity);
+                        var lightGO = Instantiate(flashSpotLight, transform.position, Quaternion.identity);
+                        Destroy(lightGO, 3f);
+                        
                         PlaySFX(wallHitSound);
                         var velocity = collision2D.relativeVelocity;
                         velocity.x *= -1f;
@@ -325,6 +334,7 @@ namespace CoinDash.GameLogic.Runtime.Level
                         var impulseSource = go.GetComponent<CinemachineImpulseSource>();
                         impulseSource.GenerateImpulseWithVelocity(velocity);
                         Destroy(go, 3f);
+                        
                         ++ConsecutiveHits;
                         
                         break;
@@ -332,6 +342,9 @@ namespace CoinDash.GameLogic.Runtime.Level
                     
                     case Obstacle: 
                     {
+                        var lightGO = Instantiate(flashSpotLight, transform.position, Quaternion.identity);
+                        Destroy(lightGO, 3f);
+                        
                         PlaySFX(wallHitSound);
                         
                         var velocity = collision2D.relativeVelocity;

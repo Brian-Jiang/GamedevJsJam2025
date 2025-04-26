@@ -35,9 +35,9 @@ namespace CoinDash.GameLogic.Runtime.Level.Tracks
         
         public bool IsInRange(float y)
         {
-            var start = GetStartPosition().y;
+            // var start = GetStartPosition().y;
             var end = GetEndPosition().y;
-            return y > start && y < end;
+            return y < end;
         }
         
         public Vector2 GetSplinePosition(float y)

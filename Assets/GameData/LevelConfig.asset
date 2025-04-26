@@ -53,9 +53,9 @@ MonoBehaviour:
     type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   levels:
-  - levelName: Level Test 1
+  - levelName: Level 1
     scene:
       scenePath: Assets/Scenes/LevelTest.unity
-  - levelName: Level Test 2
+  - levelName: Level 2
     scene:
       scenePath: Assets/Scenes/LevelTest2.unity
